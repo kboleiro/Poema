@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'cursiva';
+    src: url(Fontes/Vegan\ Style\ Personal\ Use.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+background-color: black;
+height: 200px;
+}
+header > h1 {
+color: white;
+font-weight: bolder;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+font-size: 4em;
+text-indent: center;
+}
+header > p {
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+}
+main {
+    background-color: white;
+    min width: 200px;
+}
+
+
+
+main > article > p {
+    color: rgb(0, 0, 0);
+    font-size: 3em;
+    font-family: 'cursiva';
+    line-height: 2.5em;
+    margin-left: 30px;
+
+}
+
+aside {
+    background-image: url(imagens/background001.jpg);
+    background-position:bottom;
+    background-size: 100% 100%;
+    background-size: cover;
+    height: 750px;
+    position: relative;
+    background-attachment: fixed;
+
+}
+aside > p {
+    color: rgb(241, 241, 241);
+    font-size: 3em;
+    font-family: 'cursiva';
+    line-height: 2.2em;
+    margin-left: 30px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.409);
+}
+
+footer {
+    background-color: black;
+    font-weight: bolder;
+    text-align: center;
+
+}
+footer > p {
+    font-size: 1.4em;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+}
+.link {
+    color: white;
+    text-decoration: double;
+    text-decoration: underline;
+}
+.imagem {
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-size: cover;
+    height: 750px;
+    position: relative
+}
